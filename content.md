@@ -1,3 +1,9 @@
+# Hệ thống một Web App
+
+- FrontEnd : phần giao diện user sẽ nhìn thấy, có thể thao tác
+- Khi user tương tác => gửi request đến server lấy dữ liệu
+- Có dữ liệu mong muốn => server sẽ response để cho FrontEnd hiện thị lên UI
+
 # String
 
 - length: string.length - in ra độ dài của string
@@ -13,3 +19,21 @@
 - charAt() : trả về ký tự đó
 - substr(index , length): index vị trí bắt đầu lấy, length số lượng ký tự muốn lấy
 - substring(index, end) : index vị trí bắt đầu, end vị trí kết thúc
+
+# truthy và falsy:
+
+- falsy bao gồm: 0 , ' ', false, undefined, null, NaN
+
+# Function
+
+- Thực hiện một chức năng nào đó
+- Các loại function: Declaration Function, Xpression function, Arrow Function
+- `return` - nếu không có return thì kết quả của hàm trả về undefined
+- Kiểm tra tính hợp lệ của tham số đầu vào
+
+# Object
+
+- Lấy value của key: object.key hoặc object['key']
+- Thêm key mới vào object: object.newKey
+- Clone Object: Object.assign() , spread operator
+- Object.keys(object) : trả tất cả các key của object
