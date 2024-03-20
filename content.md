@@ -37,3 +37,21 @@
 - Thêm key mới vào object: object.newKey
 - Clone Object: Object.assign() , spread operator
 - Object.keys(object) : trả tất cả các key của object
+
+# Array
+
+- kiểm tra array: arr.isArray()
+- Method array:
+  - push(), pop(), shift(), unshift()
+  - every(): ktra tất cả ptu có tmdk không
+  - some(): kiểm tra 1 ptu tmdk
+  - indexOf(searchEl): tìm vị trí đầu tiên của searchEl
+  - inclues(): kiểm tra có chứa ptu không
+
+# Scope
+
+- ĐN: đưa phần khai báo biến lên đầu scope
+- Global scope:
+- Function scope
+- Block scope
+- Lexical scope: function con có thể truy xuất scope của function cha
