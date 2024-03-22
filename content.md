@@ -43,10 +43,19 @@
 - kiểm tra array: arr.isArray()
 - Method array:
   - push(), pop(), shift(), unshift()
-  - every(): ktra tất cả ptu có tmdk không
-  - some(): kiểm tra 1 ptu tmdk
+  - every(): ktra tất cả ptu có tmdk không? trả về true hoặc false
+  - some(): kiểm tra 1 ptu tmdk - trả về true hoặc false
   - indexOf(searchEl): tìm vị trí đầu tiên của searchEl
-  - inclues(): kiểm tra có chứa ptu không
+  - inclues(): kiểm tra có chứa ptu không kq trả về true hoặc false
+  - reverse(): đảo mảng
+  - join(): nối mảng về chuỗi
+  - slice(start, end): trả ra 1 mảng mới: start(vị trí bắt đầu) - end - 1
+  - splice(start, count, addValue): cắt bỏ và thay thế
+  - sort(): sắp xếp
+  - map(): duyệt qua từng pt trong mảng và trả ra mảng mới = leng mảng ban đầu
+  - forEach(): duyệt qua ptu của mảng : forEach không return đc, chạy mãi k dừng, không trả ra mảng mới
+  - filter(): duyệt qua một mảng và loại bỏ ptu không thỏa mãn dk
+  - reduce():
 
 # Scope
 
@@ -55,3 +64,18 @@
 - Function scope
 - Block scope
 - Lexical scope: function con có thể truy xuất scope của function cha
+
+# Date
+
+- new Date(): built-in object (tích hợp sẵn trong javascript)
+- getFullYear(): in ra năm
+- getMonth(): in ra tháng
+- getDate(): in ra ngày
+- getDay(): in ra thứ của tuần 0 - 6 (0 là chủ nhật)
+- getHours(): in ra giờ
+- getMinutes(): in ra phút
+- getSeconds(): in ra giây
+- setTimeOut() và setInterval()
+  - setTimeout(): thực hiện 1 chức năng nào đó sau một tgian nhất định
+  - setInterval(): sau liên tục sau 1 khoảng thời gian nhất định
+  - clearInterval(): dừng lại Interval()
