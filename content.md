@@ -36,7 +36,9 @@
 - Lấy value của key: object.key hoặc object['key']
 - Thêm key mới vào object: object.newKey
 - Clone Object: Object.assign() , spread operator
-- Object.keys(object) : trả tất cả các key của object
+- Object.keys(object) : trả ra mảng tất cả các key của object
+- Object.values(object) : trả về mảng các giá trị
+- Object.entris(object) : trả về các mảng chứa key và value
 
 # Array
 
@@ -55,7 +57,7 @@
   - map(): duyệt qua từng pt trong mảng và trả ra mảng mới = leng mảng ban đầu
   - forEach(): duyệt qua ptu của mảng : forEach không return đc, chạy mãi k dừng, không trả ra mảng mới
   - filter(): duyệt qua một mảng và loại bỏ ptu không thỏa mãn dk
-  - reduce():
+  - reduce(giá trị khởi tạo, giá trị sau tính toán tại thời điểm), ini:
 
 # Scope
 
@@ -79,3 +81,21 @@
   - setTimeout(): thực hiện 1 chức năng nào đó sau một tgian nhất định
   - setInterval(): sau liên tục sau 1 khoảng thời gian nhất định
   - clearInterval(): dừng lại Interval()
+
+# DOM:
+
+- Định nghĩa:
+- Truy xuất:
+  - querySelector: trả về một node, ko có trả về null
+  - querySelectorAll: trả về một nodeList trả vể danh sách các node. có thể loop qua
+  - document.getElementsByClassName -> trả về HTMLColection chứa ds các node, không có thì trả về empty
+  - getAttribute (lấy value của attribute)
+  - setAttribute (thêm attribute)
+  - removeAttribute
+
+# Event
+
+- addEventListener('su kien' , function)
+- bubbling: nổi bọt ( sk click chạy trong ra ngoài)
+  - ngăn sk: dùng stopPropagation()
+  - ngăn tất: stopImmediatePropagation()
